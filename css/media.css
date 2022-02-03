@@ -1,0 +1,27 @@
+@media(max-width: 870px){
+    .header__list{
+        column-gap: 50px;
+    }
+}
+@media(max-width: 767px){
+    .header{
+        background: rgba(212,175,55,1);
+    }
+}
+@media(max-width: 678px){
+    .header__list{
+        column-gap: 30px;
+    }
+}
+@media(max-width: 585px){
+    .header__list{
+        display: none;
+    }
+    .header{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .header__nav{
+        row-gap: 0;
+    }
+}
