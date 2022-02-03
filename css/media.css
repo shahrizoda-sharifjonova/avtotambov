@@ -38,6 +38,19 @@
         background: linear-gradient(rgba(235,235,235,.76), rgba(235,235,235,.76)), url(../img/intro-bg.jpg) center / cover no-repeat;
         width: 100%;
     }
+    .bonus__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        row-gap: 30px;
+    }
+    .bonus__btn{
+        padding: 11px 26px 11px 26px;
+    }
+    .bonus__subtitle{
+        margin-top: 35px;
+    }
 }
 @media(max-width: 678px){
     .header__list{

@@ -54,7 +54,7 @@ body{
     left: 0;
     bottom: -10px;
 }
-.header__link:focus::before{
+.header__link:hover::before, .header__link:focus::before{
     width: 100%;
 }
 .intro{
@@ -159,6 +159,7 @@ body{
     max-width: 380px;
     width: 100%;
     margin-top: 10px;
+    font-weight: bold;
 }
 .title{
     text-align: center;
@@ -179,4 +180,13 @@ body{
     text-align: center;
     width: max-content;
     margin: 0 auto;
+}
+.bonus__item:nth-of-type(2) .bonus__subtitle{
+    color: rgb(224, 47, 47);
+}
+.bonus__icon{
+    width: 64px;
+    text-align: center;
+    display: block;
+    margin: 0 auto 10px auto;
 }
