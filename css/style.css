@@ -221,3 +221,25 @@ body{
 .parts__subtitle{
     font-weight: bold;
 }
+.delivery__title{
+    margin-bottom: 15px;
+    color: #fff;
+}
+.delivery__content{
+    margin-top: 75px;
+    background-color: rgba(0,0,0,1);
+    padding-top: 10px;
+    padding-bottom: 30px;
+    min-width: 100%;
+}
+.delivery__txt{
+    font-size: 28px;
+    line-height: 1.3;
+    font-weight: 400;
+    text-align: center;
+}
+.delivery__icon{
+    width: 80px;
+    color: rgba(249,196,56,1);
+}
+
