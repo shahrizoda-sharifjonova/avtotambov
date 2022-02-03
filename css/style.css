@@ -177,6 +177,10 @@ body{
     background-color: rgba(249,196,56,1);
     padding: 23px 100px 23px 100px;
     display: block;
+    width: max-content;
+}
+.bonus__btn{
+    display: block;
     text-align: center;
     width: max-content;
     margin: 0 auto;
@@ -189,4 +193,31 @@ body{
     text-align: center;
     display: block;
     margin: 0 auto 10px auto;
+}
+.parts__icon{
+    width: 64px;
+    display: block;
+}
+.parts__title{
+    color: #fff;
+}
+.parts__content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
+.parts__item{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.parts__subtitle{
+    font-weight: bold;
 }

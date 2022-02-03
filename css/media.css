@@ -14,6 +14,9 @@
     .header__list{
         column-gap: 50px;
     }
+    .btn{
+        padding: 11px 26px 11px 26px;
+    }
 }
 @media(max-width: 767px){
     .header{
@@ -45,11 +48,16 @@
         justify-content: flex-start;
         row-gap: 30px;
     }
-    .bonus__btn{
-        padding: 11px 26px 11px 26px;
-    }
     .bonus__subtitle{
         margin-top: 35px;
+    }
+    .parts__content{
+        display: flex;
+        flex-direction: column;
+    }
+    .parts__subtitle{
+        text-align: center; 
+        font-size: 20px;
     }
 }
 @media(max-width: 678px){
@@ -81,6 +89,9 @@
 @media(max-width: 420px){
     .intro__input{
         min-width: 350px;
+    }
+    .parts__title{
+        font-size: 25px;
     }
 }
 @media(max-width: 360px){
