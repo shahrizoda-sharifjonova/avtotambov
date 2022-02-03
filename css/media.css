@@ -1,3 +1,15 @@
+@media(max-width: 910px){
+    .intro__title{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .intro__txt{
+        font-size: 18px;
+    }
+    .intro__subtitle{
+        font-size: 18px;
+    }
+}
 @media(max-width: 870px){
     .header__list{
         column-gap: 50px;
@@ -7,10 +19,35 @@
     .header{
         background: rgba(212,175,55,1);
     }
+    .intro__phone{
+        font-size: 30px;
+    }
+    .intro__bottom{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .intro__title{
+        font-size: 17px;
+        line-height: 35px
+        ;
+    }
+    .intro__txt{
+        font-size: 17px;
+    }
+    .intro{
+        background: linear-gradient(rgba(235,235,235,.76), rgba(235,235,235,.76)), url(../img/intro-bg.jpg) center / cover no-repeat;
+        width: 100%;
+    }
 }
 @media(max-width: 678px){
     .header__list{
         column-gap: 30px;
+    }
+    .intro__phone{
+        font-size: 25px;
+    }
+    .intro__top{
+        row-gap: 15px;
     }
 }
 @media(max-width: 585px){
@@ -23,5 +60,18 @@
     }
     .header__nav{
         row-gap: 0;
+    }
+    .intro{
+        padding-top: 120px;
+    }
+}
+@media(max-width: 420px){
+    .intro__input{
+        min-width: 350px;
+    }
+}
+@media(max-width: 360px){
+    .intro__input{
+        min-width: 300px;
     }
 }
