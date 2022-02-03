@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <title>Document</title>
@@ -17,17 +18,17 @@
             </div>
             <div class="header__bottom">
                 <ul class="header__list">
-                    <li class="header__item"><a href="#!" class="header__link">О компании</a></li>
-                    <li class="header__item"><a href="#!" class="header__link">Акции</a></li>
-                    <li class="header__item"><a href="#!" class="header__link">Автозапчасти</a></li>
-                    <li class="header__item"><a href="#!" class="header__link">Доставка</a></li>
-                    <li class="header__item"><a href="#!" class="header__link">Контакты</a></li>
+                    <li class="header__item"><a href="#about" class="header__link">О компании</a></li>
+                    <li class="header__item"><a href="#bonus" class="header__link">Акции</a></li>
+                    <li class="header__item"><a href="#parts" class="header__link">Автозапчасти</a></li>
+                    <li class="header__item"><a href="#delivery" class="header__link">Доставка</a></li>
+                    <li class="header__item"><a href="#contacts" class="header__link">Контакты</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <section class="intro" >
+        <section class="intro" id="intro">
             <div class="intro__body">
                 <div class="intro__top container">
                     <a href="https://whatsapp.com"><img src="img/intro-icon.png" alt="" class="intro__icon"></a>
@@ -184,16 +185,31 @@
             <div class="contacts__body container">
                 <div class="contacts__content">
                     <p class="contacts__subtitle">Контакты</p>
-                    <p class="contacts__adress">г. Тамбов, Степная 19 Выдача заказов по предварительному звонку</p>
-                    <p class="contacts__mail">avtotambov68.ru@yandex.ru </p>
-                    <p class="contacts__phone">+7 (980) 678-56-05</p>
+                    <p class="contacts__adress"> 📍 г. Тамбов, Степная 19 Выдача заказов по предварительному звонку</p>
+                    <p class="contacts__mail">📧avtotambov68.ru@yandex.ru </p>
+                    <p class="contacts__phone">📱+7 (980) 678-56-05</p>
                     <p class="contacts__info">Бесплатная консультация по подбору автозапчастей</p>
-                    <a href="https://whatsapp.com" class="contacts__icon"><img src="img/contacts-icon.png" alt=""></a>
-                    <a href="https://whatsapp.com" class="contacts__link">позвонить</a>
+                    <div class="contacts__links">
+                        <a href="https://whatsapp.com" class="contacts__icon"><img src="img/contacts-icon.png" alt=""></a>
+                        <a href="https://whatsapp.com" class="contacts__link">позвонить</a>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="footer__body container">
+            <div class="footer__content">
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#about" class="footer__link">О компании</a></li>
+                    <li class="footer__item"><a href="#parts" class="footer__link">Автозапчасти</a></li>
+                    <li class="footer__item"><a href="#contacts" class="footer__link">Наши контакты</a></li>
+                </ul>
+                <a href="#intro" class="footer__up"><i class="fas fa-arrow-up"></i></a>
+            </div>
+            <p class="footer__p">Автотамбов © 2021 Все права защищены</p>
+        </div>
+    </footer>
     
 
     <script src="script/script.js"></script>

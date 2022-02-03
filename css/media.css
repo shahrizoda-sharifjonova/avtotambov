@@ -17,6 +17,9 @@
     .btn{
         padding: 11px 26px 11px 26px;
     }
+    .footer__list{
+        column-gap: 50px;
+    }
 }
 @media(max-width: 767px){
     .header{
@@ -107,6 +110,22 @@
     .about__img{
         width: 100%;
     }
+    .footer__content{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .footer__list{
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 480px){
+    .footer__list{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        justify-content: flex-start;
+    }
 }
 @media(max-width: 420px){
     .intro__input{
@@ -114,6 +133,12 @@
     }
     .parts__title{
         font-size: 25px;
+    }
+    .contacts__content{
+        width: 100%;
+    }
+    .footer__p{
+        line-height: 26px;
     }
 }
 @media(max-width: 360px){
