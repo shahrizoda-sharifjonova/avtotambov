@@ -38,6 +38,9 @@
     .header__logo .md{
         display: block;
     }
+    .intro{
+        padding-top: 200px;
+    }
     .intro__phone{
         font-size: 30px;
     }
