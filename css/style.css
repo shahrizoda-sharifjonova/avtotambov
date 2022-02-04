@@ -38,6 +38,9 @@ body{
     width: 100%;
     backdrop-filter: blur(2px);
 }
+.header__logo .md{
+    display: none;
+}
 .header__nav{
     display: flex;
     flex-direction: column;
@@ -49,11 +52,17 @@ body{
     justify-content: center;
     align-items: center;
     column-gap: 100px;
+    border-top: 4px solid rgba(249,196,56,1);
+    padding-top: 15px;
+    transition: 400ms ease;
 }
 .header__link{
     color: #fff;
     font-weight: 500;
     position: relative;
+}
+.header__list:hover{
+    border-top: 4px solid transparent;
 }
 .header__link::before{
     content: '';
@@ -112,6 +121,8 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    flex: 1 1 auto;
+    margin-right: 100px;
 }
 .intro__form{
     display: flex;
@@ -119,6 +130,7 @@ body{
     align-items: stretch;
     justify-content: flex-start;
     row-gap: 15px;
+    width: 100%;
 }
 .intro__bottom{
     display: flex;

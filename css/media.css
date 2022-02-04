@@ -32,6 +32,12 @@
     .header{
         background: rgba(212,175,55,1);
     }
+    .header__logo img{
+        display: none;
+    }
+    .header__logo .md{
+        display: block;
+    }
     .intro__phone{
         font-size: 30px;
     }
@@ -41,8 +47,11 @@
     }
     .intro__title{
         font-size: 17px;
-        line-height: 35px
-        ;
+        line-height: 35px;
+    }
+    .intro__left{
+        width: 100%;
+        margin-right: 0;
     }
     .intro__txt{
         font-size: 17px;
