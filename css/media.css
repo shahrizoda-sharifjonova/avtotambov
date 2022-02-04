@@ -20,6 +20,13 @@
     .footer__list{
         column-gap: 50px;
     }
+    .popup__title{
+        font-size: 28px;
+        margin: 15px auto;
+    }
+    .intro__phone{
+        font-size: 32px;
+    }
 }
 @media(max-width: 767px){
     .header{
@@ -81,6 +88,10 @@
     .about__txt:nth-of-type(1){
         border-top: none;
     }
+    .popup__title{
+        font-size: 25px;
+        line-height: 40px;
+    }
 }
 @media(max-width: 678px){
     .header__list{
@@ -91,6 +102,12 @@
     }
     .intro__top{
         row-gap: 15px;
+    }
+    .bonus__subtitle{
+        font-size: 21px;
+    }
+    .popup__body{
+        padding: 30px 10px;
     }
 }
 @media(max-width: 585px){
@@ -118,6 +135,23 @@
     .footer__list{
         margin-bottom: 30px;
     }
+    .title{
+        font-size: 20px;
+    }
+    .delivery__txt{
+        font-size: 22px;
+    }
+    .delivery__content{
+        margin-top: 50px;
+    }
+    .about{
+        padding-bottom: 50px;
+    }
+    .popup__title{
+        font-size: 23px;
+        line-height: 32px;
+        margin: 12px auto;
+    }
 }
 @media(max-width: 480px){
     .footer__list{
@@ -125,6 +159,20 @@
         flex-direction: column;
         row-gap: 20px;
         justify-content: flex-start;
+    }
+    .delivery__txt{
+        font-size: 20px;
+    }
+    .bonus__subtitle{
+        font-size: 19px;
+        max-width: 300px;
+    }
+    .popup__title{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .intro__phone{
+        font-size: 23px;
     }
 }
 @media(max-width: 420px){
@@ -140,9 +188,54 @@
     .footer__p{
         line-height: 26px;
     }
+    .title{
+        font-size: 18px;
+    }
+    .intro__phone{
+        font-size: 20px;
+    }
+    .popup__title{
+        font-size: 16px;
+        line-height: 26px;  
+    }
+    .popup__btn{
+        font-size: 13px;
+    }
 }
 @media(max-width: 360px){
     .intro__input{
         min-width: 300px;
+    }
+    .title{
+        font-size: 16px;
+    }
+    .delivery__txt{
+        font-size: 18px;
+        max-width: 300px;
+        width: 100%;
+    }
+    .about__txt{
+        font-size: 16px;
+    }
+    .delivery__content{
+        margin-top: 30px;
+        padding: 30px 0;
+    }
+    .about__title{
+        margin-bottom: 30px;
+    }
+    .popup__title{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .intro__phone{
+        font-size: 18px;
+    }
+    .popup .intro__link{
+        font-size: 14px;
+    }
+    .popup__close{
+        top: 9%;
+        font-size: 28px;
     }
 }

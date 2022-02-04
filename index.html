@@ -31,8 +31,10 @@
         <section class="intro" id="intro">
             <div class="intro__body">
                 <div class="intro__top container">
-                    <a href="https://whatsapp.com"><img src="img/intro-icon.png" alt="" class="intro__icon"></a>
-                    <a href="#!" class="intro__link">позвонить на WhatsApp</a>
+                    <div class="intro__links">
+                        <a href="https://whatsapp.com"><img src="img/intro-icon.png" alt="" class="intro__icon"></a>
+                        <a href="https://whatsapp.com" class="intro__link">позвонить на WhatsApp</a>
+                    </div>
                     <a href="#!" class="intro__phone">+7 (980) 678-56-05</a>
                     <h1 class="intro__title">КУПИТЬ ЗАПЧАСТИ  ДЛЯ ВСЕХ МАРОК АВТОМОБИЛЕЙ В ТАМБОВЕ</h1>
                     <p class="intro__txt">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ ПО ПОДБОРУ ЗАПЧАСТЕЙ</p>
@@ -197,6 +199,28 @@
             </div>
         </section>
     </main>
+    <div class="popup">
+        <div class="popup__body container">
+            <div class="popup__inner">
+                <a href="#!" class="popup__close"><i class="fas fa-times"></i></a>
+            <a href="index.html" class="popup__logo"><img src="img/logo.png" alt=""></a>
+            <div class="intro__links">
+                <a href="https://whatsapp.com"><img src="img/intro-icon.png" alt="" class="intro__icon"></a>
+                <a href="https://whatsapp.com" class="intro__link">позвонить на WhatsApp</a>
+                <a href="#!" class="intro__phone">+7 (980) 678-56-05</a>
+            </div>
+            <h2 class="popup__title">ОСТАВЬТЕ ВАШУ ЗАЯВКУ <br> МЫ ВАМ ПЕРЕЗВОНИМ!</h2>
+            <form action="" class="popup__form">
+                <input type="text" class="popup__input" placeholder="VIN-CODE*">
+                <input type="text" class="popup__input" placeholder="Марка автомобиля*">
+                <input type="text" class="popup__input" placeholder="Ваше имя*">
+                <input type="text" class="popup__input" placeholder="Номер телефона*">
+                <input type="text" class="popup__input" placeholder="Комменарий к звонку [желамое время звонка и т.п] (не обязательно)">
+                <button class="popup__btn" type="submit">ОСТАВИТЬ ЗАЯВКУ</button>
+            </form>
+            </div>
+        </div>
+    </div>
     <footer class="footer">
         <div class="footer__body container">
             <div class="footer__content">
@@ -212,6 +236,6 @@
     </footer>
     
 
-    <script src="script/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
